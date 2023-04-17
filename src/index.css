@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.start-btn,
+.pause-btn,
+.reset-btn,
+.lap-btn,
+.resume-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.start-btn {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.start-btn:hover {
+  background-color: #27ae60;
+}
+
+.pause-btn {
+  background-color: #f1c40f;
+  color: #fff;
+}
+
+.pause-btn:hover {
+  background-color: #f39c12;
+}
+
+.reset-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.reset-btn:hover {
+  background-color: #c0392b;
+}
+
+.lap-btn {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.lap-btn:hover {
+  background-color: #2980b9;
+}
+
+.resume-btn {
+  background-color: #9b59b6;
+  color: #fff;
+}
+
+.resume-btn:hover {
+  background-color: #8e44ad;
+}
+
+.start-btn:disabled,
+.pause-btn:disabled,
+.reset-btn:disabled,
+.lap-btn:disabled,
+.resume-btn:disabled {
+  background-color: #808080;
+}

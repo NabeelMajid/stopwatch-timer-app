@@ -1,0 +1,17 @@
+.timer-input {
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 70%;
+    margin-top: 26px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+ .timer-input:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 8px #66afe9;
+  }
+  

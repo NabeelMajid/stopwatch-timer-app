@@ -1,0 +1,39 @@
+.laps-container {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+.laps-heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+.laps-ol {
+    margin: 10px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+  }
+  
+.laps-li {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .laps-li:first-child {
+    margin-top: 0;
+  }
+  
+  .laps-li:last-child {
+    margin-bottom: 0;
+  }
+  
