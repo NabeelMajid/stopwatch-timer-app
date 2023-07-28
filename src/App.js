@@ -10,7 +10,7 @@ function App() {
       content: <Stopwatch />,
     },
     {
-      title: "Timers",
+      title: "Timer",
       content: <Timer />,
     },
   ];
